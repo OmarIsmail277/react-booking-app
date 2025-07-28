@@ -1,8 +1,8 @@
 import { createSlice } from "@reduxjs/toolkit";
 
-const intialState = {
+const initialState = {
   id: "",
-  hotel_name: "",
+  name: "",
   address: "",
   pricing: "",
   images: [],
@@ -11,12 +11,12 @@ const intialState = {
   description: "",
   isBooked: false,
   checkInDate: null,
-  checkoutDate: null,
+  checkOutDate: null,
 };
 
 const hotelSlice = createSlice({
   name: "hotel",
-  intialState,
+  initialState,
   reducers: {
     chooseHotel(state, action) {
       return {

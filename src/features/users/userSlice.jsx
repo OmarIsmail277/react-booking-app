@@ -1,15 +1,16 @@
 import { createSlice } from "@reduxjs/toolkit";
 
-const intialState = {
+const initialState = {
   fullName: "",
   email: "",
-  country: "Egypt",
+  country: "",
   phone: "",
+  isAuthenticated: false,
 };
 
 const userSlice = createSlice({
   name: "user",
-  intialState,
+  initialState,
   reducers: {
     createUser: {
       prepare(fullName, email, country, phone) {
@@ -27,11 +28,18 @@ const userSlice = createSlice({
         state.email = action.payload.email;
         state.country = action.payload.country;
         state.phone = action.payload.phone;
+        // state.isAuthenticated = false;
       },
+    },
+    login(state) {
+      state.isAuthenticated = true;
+    },
+    logout(state) {
+      state.isAuthenticated = false;
     },
   },
 });
 
-export const { createUser } = userSlice.actions;
+export const { createUser, login, logout } = userSlice.actions;
 
 export default userSlice.reducer;

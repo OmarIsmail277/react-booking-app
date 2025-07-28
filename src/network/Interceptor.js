@@ -1,5 +1,7 @@
 import axios from "axios";
 
-const axiosInstance = axios.create({
-  baseURL: "https:booking-app-db.vercel.app",
+const axiosInterceptor = axios.create({
+  baseURL: "http://localhost:8000",
 });
+
+export default axiosInterceptor;
