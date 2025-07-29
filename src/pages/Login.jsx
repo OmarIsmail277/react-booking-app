@@ -62,7 +62,7 @@ import { useForm } from "react-hook-form";
 import { useDispatch, useSelector } from "react-redux";
 import { login } from "../features/users/userSlice";
 import { useNavigate } from "react-router-dom";
-import Styles from "../styles/Login.module.scss";
+import Styles from "../styles/login.module.scss";
 import { Link } from "react-router-dom";
 import Button from "@mui/material/Button";
 
