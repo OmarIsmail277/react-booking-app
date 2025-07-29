@@ -64,6 +64,7 @@ import { login } from "../features/users/userSlice";
 import { useNavigate } from "react-router-dom";
 import Styles from "../styles/Login.module.scss";
 import { Link } from "react-router-dom";
+import Button from "@mui/material/Button";
 
 function Login() {
   const {
@@ -88,7 +89,7 @@ function Login() {
   return (
     <div className={Styles.container}>
       <figure className={Styles.image__wrapper}>
-        <img src="public/images/Brand Logo.png" alt="" />
+        <img src="../../public/images/login_logo.svg" alt="" />
       </figure>
 
       <h3>LOGIN</h3>
@@ -105,7 +106,7 @@ function Login() {
         />
 
         {errors.email && <p>Valid email is required</p>}
-        <label htmlFor="password">Paswword</label>
+        <label htmlFor="password">Password</label>
         <input
           type="password"
           placeholder="Password"
