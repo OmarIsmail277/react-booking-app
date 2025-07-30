@@ -1,5 +1,5 @@
 import { useForm } from "react-hook-form";
-import { useDispatch, useSelector } from "react-redux";
+import { useDispatch } from "react-redux";
 import { login } from "../features/User/UserSlice";
 import { useNavigate } from "react-router-dom";
 import Styles from "../styles/LoginPage.module.scss";
@@ -41,7 +41,7 @@ function LoginPage() {
     <div className={Styles.login__wrapper}>
       <div className={Styles.container}>
         <figure className={Styles.image__wrapper}>
-          <img src="../../public/images/Vector.svg" alt="" />
+          <img src="/images/Vector.svg" alt="" />
         </figure>
 
         <h3>LOGIN</h3>
@@ -84,7 +84,7 @@ function LoginPage() {
             className={Styles.socials__item}
           >
             <div className={Styles.socials__img}>
-              <img src="/images/google 1.svg" alt="Google" />
+              <img src="/images/google.svg" alt="Google" />
             </div>
             <p>
               Login with <strong>Google</strong>
@@ -98,7 +98,7 @@ function LoginPage() {
             className={Styles.socials__item}
           >
             <div className={Styles.socials__img}>
-              <img src="/images/facebook 1.svg" alt="Facebook" />
+              <img src="/images/facebook.svg" alt="Facebook" />
             </div>
             <p>
               Login with <strong>Facebook</strong>
@@ -108,7 +108,7 @@ function LoginPage() {
       </div>
 
       <figure className={Styles.bg__wrapper}>
-        <img src="../../public/images/BG.png" alt="" />
+        <img src="/images/BG.png" alt="" />
       </figure>
     </div>
   );
