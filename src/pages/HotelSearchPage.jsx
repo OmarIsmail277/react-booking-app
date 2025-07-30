@@ -37,9 +37,11 @@ export default function SearchPage() {
       {hotels.length === 0 ? (
         <div className={Styles.noResults}>
           <figure>
-            <img src="../../public/images/noresults.svg" alt="" />
+            <img src="/images/noresults.svg" alt="" />
           </figure>
-          <h2 style={{ marginTop: "1rem", color: "black" }}>No results found.</h2>
+          <h2 style={{ marginTop: "1rem", color: "black" }}>
+            No results found.
+          </h2>
         </div>
       ) : (
         <div className={Styles.cardGrid}>
