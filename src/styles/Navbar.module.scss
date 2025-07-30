@@ -1,0 +1,49 @@
+nav{
+    background-image: url("../../public/images/Header-BG.jpg");
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 20.3125rem;
+    position:relative;
+}
+
+.upper__section {
+  display: flex;
+  justify-content: flex-end;
+  padding: 2rem 2.6875rem 3.125rem 0;
+  gap: 0.65rem;
+
+  a,
+  .user__greeting {
+    color: white;
+    font-size: 1.13rem;
+    font-weight: 600;
+  }
+
+  .placeholder {
+    width: 4rem; // Same width as a typical link
+    visibility: hidden;
+  }
+}
+
+    .nav__icons{
+        display:flex;
+        gap: 1.4375rem;
+        align-items:center;
+        position:absolute;
+        left:25.25rem;
+        top:10.125rem;      
+        li{
+               a{
+             display:flex;
+            flex-direction:column;
+            justify-content: center;
+            align-items: center;
+            color:white
+        }
+        p{
+            font-size:0.75rem;
+            font-weight:600;
+        }
+        }
+    }

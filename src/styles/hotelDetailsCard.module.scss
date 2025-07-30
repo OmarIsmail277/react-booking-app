@@ -1,0 +1,56 @@
+.card {
+  display: flex;
+  gap: 24px;
+  padding: 24px;
+  border-radius: 12px;
+  background-color: #fff;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.05);
+}
+
+.left {
+  flex: 1;
+}
+
+.right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.imageSlider {
+  .mainImage {
+    width: 100%;
+    border-radius: 8px;
+    object-fit: cover;
+    height: 300px;
+  }
+
+  .thumbSwiper {
+    margin-top: 12px;
+  }
+
+  .thumbImage {
+    height: 60px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 6px;
+    opacity: 0.7;
+    cursor: pointer;
+    &:hover {
+      opacity: 1;
+    }
+  }
+}
+
+.discount {
+  color: red;
+  font-size: 0.8rem;
+  margin-right: 6px;
+}
+
+.payNow {
+  margin-top: 20px;
+  padding: 12px;
+  font-weight: bold;
+}

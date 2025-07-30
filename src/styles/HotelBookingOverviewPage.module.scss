@@ -1,0 +1,125 @@
+.container{
+    margin-top:4.1rem;
+    margin-left: 3rem;;
+}
+
+form{
+    background-color: white;
+    border-radius:8px;
+    width:64%;
+}
+
+.content{
+    display:flex;
+    gap:2rem;
+}
+
+.summary__card{
+    background-color:white;
+    width:20%;
+    padding: .75rem 1.3125rem;
+    height: 48rem;
+}
+
+.image__wrapper{
+    width:265px;
+    height: 165px;
+    margin-top: .8125rem;
+
+    img{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+
+.summary__card {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.07);
+  padding: 1.5rem 1.5rem 1rem 1.5rem;
+  width: 320px;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom:3rem;
+}
+.summary__title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: .5rem;
+}
+.image__wrapper img {
+  border-radius: 12px;
+  object-fit: cover;
+}
+.summary__main { margin-top: 1rem; }
+.summary__hotel {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.hotel__name {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: .25rem;
+}
+.hotel__address {
+  font-size: .95rem;
+  color: #555;
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+.location__icon { color: #0a6ada; }
+.price__block {
+  text-align: right;
+}
+.discount {
+  color: #df142d;
+  font-weight: 700;
+  font-size: 1rem;
+}
+.price {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #222;
+  margin-right: .25rem;
+}
+.currency {
+  font-size: .9rem;
+  color: #888;
+}
+.pernight {
+  font-size: .9rem;
+  color: #888;
+  display: block;
+}
+.dates label {
+  font-size: 1rem;
+  font-weight: 500;
+  margin-top: 1rem;
+  margin-bottom: .25rem;
+  display: block;
+}
+.dates input {
+  width: 100%;
+  padding: .5rem .75rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  margin-bottom: .5rem;
+  background: #fafbfc;
+  font-size: 1rem;
+}
+.price__summary {
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+.price__summary > div {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: .25rem;
+}
+.total__row {
+  font-weight: 700;
+  margin-top: .5rem;
+  font-size: 1.1rem;
+}

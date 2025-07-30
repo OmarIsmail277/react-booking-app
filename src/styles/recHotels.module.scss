@@ -1,3 +1,111 @@
-.cards {
+.recommendedSection {
+  margin-bottom: 32px;
+  overflow-x: hidden;
+  padding: 0 16px;
+}
+
+.header {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.sliderContainer {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  max-width: 100%;
+}
+
+.sliderWrapper {
+  flex: 1;
+  overflow: hidden;
+}
+
+.slide {
+  width: 462px !important;
+  box-sizing: border-box;
+}
+
+.navButton {
+  width: 48px;
+  height: 48px;
+  border: none;
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #475073;
+  transition: all 0.3s ease;
+  z-index: 10;
+  flex-shrink: 0;
+
+  &:hover:not(:disabled) {
+    background: #f8f9fa;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+    transform: translateY(-1px);
+  }
+
+  &:active:not(:disabled) {
+    transform: translateY(0);
+  }
+
+  &:disabled {
+    opacity: 0.3;
+    cursor: not-allowed;
+    pointer-events: none;
+    background: #f5f5f5;
+    color: #ccc;
+  }
+
+  svg {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+.prevButton {
+  left: -8px;
+}
+
+.nextButton {
+  right: -8px;
+}
+
+// Override slick slider default styles with !important
+:global(.slick-slider) {
+  .slick-track {
+    display: flex !important;
+    gap: 20px !important; // Force 20px gap
+    margin-left: 0 !important;
+  }
+
+  .slick-slide {
+    height: auto !important;
+    width: 462px !important;
+    margin-right: 0 !important; // Remove default margin
+    
+    > div {
+      height: 100%;
+      width: 462px !important;
+    }
+  }
+
+  .slick-list {
+    overflow: visible !important;
+  }
+}
+
+// Additional global overrides to ensure gaps work
+:global(.slick-slide) {
+  margin-right: 20px !important;
+  
+  &:last-child {
+    margin-right: 0 !important;
+  }
 }

@@ -1,12 +1,13 @@
 {
   "users": [
     {
-      "id": "0c93",
+      "id": "b243",
       "fullName": "Omar Ahmed",
-      "email": "omar.ismail277@gmail.com",
-      "country": "Egypt",
-      "phone": "01115321567",
-      "password": "omar"
+      "email": "omar@omar.com",
+      "country": "asd",
+      "phone": "213",
+      "password": "omar123@A",
+      "bookings": []
     }
   ],
   "hotels": [
@@ -52,12 +53,7 @@
           "roomType": "triple"
         }
       ],
-      "amenities": [
-        "Parking",
-        "Attached Bathroom",
-        "CCTV Cameras",
-        "Wifi"
-      ],
+      "amenities": ["Parking", "Attached Bathroom", "CCTV Cameras", "Wifi"],
       "description": "Whether you are in town for business or leisure, San Francisco welcomes travelers to Northern California with exceptional service.",
       "images": {
         "main": "https://cache.marriott.com/content/dam/marriott-renditions/SFODT/sfodt-exterior-0174-hor-wide.jpg?output-quality=70&interpolation=progressive-bilinear&downsize=1920px:*",
@@ -169,13 +165,7 @@
           "roomType": "triple"
         }
       ],
-      "amenities": [
-        "Beach Access",
-        "Pool",
-        "Spa",
-        "Wifi",
-        "Restaurant"
-      ],
+      "amenities": ["Beach Access", "Pool", "Spa", "Wifi", "Restaurant"],
       "description": "Beachfront resort with direct ocean access and tropical paradise vibes.",
       "images": {
         "main": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
@@ -228,13 +218,7 @@
           "roomType": "triple"
         }
       ],
-      "amenities": [
-        "Parking",
-        "Kitchen",
-        "Laundry",
-        "Wifi",
-        "Business Center"
-      ],
+      "amenities": ["Parking", "Kitchen", "Laundry", "Wifi", "Business Center"],
       "description": "Spacious suites perfect for extended stays in downtown Chicago.",
       "images": {
         "main": "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
@@ -287,13 +271,7 @@
           "roomType": "triple"
         }
       ],
-      "amenities": [
-        "Casino",
-        "Pool",
-        "Shows",
-        "Wifi",
-        "Multiple Restaurants"
-      ],
+      "amenities": ["Casino", "Pool", "Shows", "Wifi", "Multiple Restaurants"],
       "description": "Experience the excitement of Vegas with luxurious accommodations right on the Strip.",
       "images": {
         "main": "https://images.unsplash.com/photo-1596178065887-1198b6148b2b?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
@@ -462,12 +440,7 @@
           "roomType": "triple"
         }
       ],
-      "amenities": [
-        "Live Music",
-        "Rooftop Bar",
-        "Wifi",
-        "Pet Friendly"
-      ],
+      "amenities": ["Live Music", "Rooftop Bar", "Wifi", "Pet Friendly"],
       "description": "Experience Austin's vibrant music scene with live performances and downtown energy.",
       "images": {
         "main": "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
@@ -520,12 +493,7 @@
           "roomType": "triple"
         }
       ],
-      "amenities": [
-        "Mountain Views",
-        "Ski Storage",
-        "Wifi",
-        "Hot Tub"
-      ],
+      "amenities": ["Mountain Views", "Ski Storage", "Wifi", "Hot Tub"],
       "description": "Mountain lodge atmosphere with easy access to Denver's attractions and nearby ski resorts.",
       "images": {
         "main": "https://images.unsplash.com/photo-1540541338287-41700207dee6?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
@@ -694,12 +662,7 @@
           "roomType": "triple"
         }
       ],
-      "amenities": [
-        "Jazz Club",
-        "Balcony Rooms",
-        "Wifi",
-        "Creole Cuisine"
-      ],
+      "amenities": ["Jazz Club", "Balcony Rooms", "Wifi", "Creole Cuisine"],
       "description": "Immerse yourself in New Orleans culture with jazz music and authentic Creole atmosphere.",
       "images": {
         "main": "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
@@ -811,12 +774,7 @@
           "roomType": "triple"
         }
       ],
-      "amenities": [
-        "Business Center",
-        "Fitness Center",
-        "Wifi",
-        "Restaurant"
-      ],
+      "amenities": ["Business Center", "Fitness Center", "Wifi", "Restaurant"],
       "description": "Modern business hotel in downtown Atlanta with excellent conference facilities.",
       "images": {
         "main": "https://images.unsplash.com/photo-1596178065887-1198b6148b2b?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
@@ -1337,12 +1295,7 @@
           "roomType": "pyramid_view_room"
         }
       ],
-      "amenities": [
-        "Pyramid Views",
-        "Rooftop Bar",
-        "Restaurant",
-        "Breakfast"
-      ],
+      "amenities": ["Pyramid Views", "Rooftop Bar", "Restaurant", "Breakfast"],
       "description": "A laid-back 3-star hotel with rooms offering direct views of the Pyramids of Khufu, plus a rooftop bar and restaurant. Excellent value for its location.",
       "images": {
         "main": "https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2070",
@@ -2814,12 +2767,7 @@
           "roomType": "triple"
         }
       ],
-      "amenities": [
-        "Parking",
-        "Attached Bathroom",
-        "CCTV Cameras",
-        "Wifi"
-      ],
+      "amenities": ["Parking", "Attached Bathroom", "CCTV Cameras", "Wifi"],
       "description": "Whether you are in town for business or leisure, San Francisco welcomes travelers to Northern California with exceptional service.",
       "images": {
         "main": "https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
@@ -2931,13 +2879,7 @@
           "roomType": "triple"
         }
       ],
-      "amenities": [
-        "Beach Access",
-        "Pool",
-        "Spa",
-        "Wifi",
-        "Restaurant"
-      ],
+      "amenities": ["Beach Access", "Pool", "Spa", "Wifi", "Restaurant"],
       "description": "Beachfront resort with direct ocean access and tropical paradise vibes.",
       "images": {
         "main": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
@@ -2990,13 +2932,7 @@
           "roomType": "triple"
         }
       ],
-      "amenities": [
-        "Parking",
-        "Kitchen",
-        "Laundry",
-        "Wifi",
-        "Business Center"
-      ],
+      "amenities": ["Parking", "Kitchen", "Laundry", "Wifi", "Business Center"],
       "description": "Spacious suites perfect for extended stays in downtown Chicago.",
       "images": {
         "main": "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
@@ -3049,13 +2985,7 @@
           "roomType": "triple"
         }
       ],
-      "amenities": [
-        "Casino",
-        "Pool",
-        "Shows",
-        "Wifi",
-        "Multiple Restaurants"
-      ],
+      "amenities": ["Casino", "Pool", "Shows", "Wifi", "Multiple Restaurants"],
       "description": "Experience the excitement of Vegas with luxurious accommodations right on the Strip.",
       "images": {
         "main": "https://images.unsplash.com/photo-1596178065887-1198b6148b2b?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",

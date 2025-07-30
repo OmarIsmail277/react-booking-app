@@ -1,0 +1,92 @@
+.container{
+    margin-top:4.1rem;
+    margin-left: 3rem;
+}
+
+.path{
+    width:90%;
+    height:3.25rem;
+    padding:0.75rem 1.25rem;
+    background-color: white;
+    border-radius:10px;
+    margin-bottom:1rem;
+     .blue{
+        color:rgba(10, 106, 218, 1)
+    }
+}
+
+.items{
+width:70%;
+}
+
+.content{
+    display:flex;
+    gap:1rem;
+}
+
+.profile {
+    width:20%;
+    height:28rem;
+    background-color: white;
+    border-radius: 6px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 1rem;
+  text-align: center;
+
+  h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+
+  h3 {
+    margin-top: 1rem;
+    font-size: 1.4rem;
+  }
+
+  p {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 1rem;
+  }
+
+  .avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color:rgba(10, 106, 218, 0.1); // light grey shade
+    color: #333;
+    font-weight: bold;
+    font-size: 1.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 1rem;
+  }
+
+  .btn {
+    background-color: rgba(124, 130, 155, 0.1);
+    color: rgb(1, 1, 1);
+    padding: 0.5rem 1rem;
+    border-radius: 16px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    display: inline-block;
+    transition: background-color 0.3s;
+
+    &:hover {
+      background-color: #084ea0;
+    }
+  }
+  .total {
+  margin-top: 1.5rem;
+  background-color: #f8f8f8;
+  padding: 1rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  color: #333;
+}
+
+}

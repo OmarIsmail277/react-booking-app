@@ -1,6 +1,6 @@
 import { useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
-import { chooseHotel } from "../features/hotels/hotelSlice";
+import { chooseHotel } from "../features/Hotel/HotelSlice";
 
 import styles from "../styles/recCard.module.scss";
 
@@ -18,18 +18,23 @@ function RecCard({ hotel }) {
         <img src={hotel.images.main} alt={hotel.name} />
       </figure>
 
-      <div className="info__wrapper">
-        <p>HOTEL</p>
-        <h2>{hotel.name}</h2>
-        <p>
-          {hotel.address?.city}, {hotel.address?.country}
-        </p>
+      <div className={styles.info__wrapper}>
+        <div className={styles.info}>
+          <p className={styles.hotelP}>HOTEL</p>
+          <h2>{hotel.name}</h2>
 
-        <p>
-          Cupon: <strong>dhshjab09d</strong>
-        </p>
+          <p className={styles.addressP}>
+            {hotel.address?.city}, {hotel.address?.country}
+          </p>
+        </div>
 
-        <button onClick={handleBook}>Book</button>
+        <div className={styles.bookC}>
+          <p className={styles.cupounP}>
+            Cupon: <strong>dhshjab09d</strong>
+          </p>
+
+          <button onClick={handleBook}>BOOK NOW</button>
+        </div>
       </div>
     </div>
   );
