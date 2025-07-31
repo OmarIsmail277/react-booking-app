@@ -12,6 +12,7 @@ import OutlinedInput from "@mui/material/OutlinedInput";
 import { useNavigate } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { chooseHotel } from "../features/Hotel/HotelSlice";
+import { fetchSearchResults } from "../features/Search/SearchSlice";
 
 export default function SearchForm() {
   const [search, setSearch] = useState("");
@@ -25,10 +26,17 @@ export default function SearchForm() {
   const handleSearch = () => {
     // Save check-in date to Redux hotel state (for both checkInDate and checkOutDate)
     dispatch(chooseHotel({ checkInDate: checkIn, checkOutDate: checkIn }));
+
+    // Trigger API search using Redux Thunk
+    dispatch(fetchSearchResults({ query: search, country }));
+
+    // Create URL search params
     const params = new URLSearchParams({
-      query: search,
-      country,
+      ...(search && { query: search }),
+      ...(country && { country }),
     });
+
+    // Navigate to search results page
     navigate(`/search?${params.toString()}`);
   };
 

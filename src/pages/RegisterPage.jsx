@@ -20,7 +20,7 @@ function RegisterPage() {
     const { fullName, email, country, phone, password } = data;
 
     try {
-      await axiosInstance.post("http://localhost:8000/users", {
+      await axiosInstance.post("/users", {
         fullName,
         email,
         country,
