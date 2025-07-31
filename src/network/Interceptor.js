@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const axiosInterceptor = axios.create({
-  baseURL: "http://localhost:8000",
+  baseURL: "https://bookings-json-server-api-production.up.railway.app/",
 });
 
 export default axiosInterceptor;
