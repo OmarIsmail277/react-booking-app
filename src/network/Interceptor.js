@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const axiosInterceptor = axios.create({
-  baseURL: "https://bookings-json-server-api-production.up.railway.app/",
+  baseURL: import.meta.env.VITE_API_URL,
 });
 
 export default axiosInterceptor;
